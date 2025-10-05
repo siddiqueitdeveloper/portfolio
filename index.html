@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Siddique | Cybersecurity Expert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Network Background -->
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-container"> 
+                <div class="logo-img"><img src="favicon/favicon-32x32.png" alt=""></div>
+                <div class="logo-text">Muhammad <span>Siddique</span></div>
+            </div>
+            <nav>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Enhanced Hero Section - Centered -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="security-badge">
+                    <i class="fas fa-shield-alt"></i> Security Verified
+                </div>
+                
+                <h1>Muhammad <span class="highlight">Siddique</span></h1>
+                
+                <!-- Name above typing text -->
+                <div class="name-above-typing">
+                    <h2 class="profession-title">Cyber Security Expert</h2>
+                </div>
+                
+                <div class="typing-text" id="typingText"></div>
+                
+                <!-- Logo before description -->
+                <div class="hero-logo">
+                    <div class="hero-logo-container">
+                        <div class="hero-logo-img">
+                            <div style="width: 100%; height: 200px; background: rgba(16, 185, 129, 0.1); display: flex; align-items: center; justify-content: center; color: var(--primary); font-size: 1.5rem;">
+                               <img src="asserts/logo.png" alt="">
+                                
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <p style="text-align: justify;" class="hero-description">I am Muhammad Siddique, a Cybersecurity Expert, ICT Lecturer, 
+                    Python Automation having a solid academic and professional background in digital 
+                    ecosystem security. I have experience in both industry and academia in all aspects
+                     of network security, penetration testing, IoT security, and automation.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">
+                        <i class="fas fa-laptop-code"></i> View My Projects
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        <i class="fas fa-cogs"></i> My Services
+                    </a>
+                    <a href="asserts/Muhammad_Siddique_Resume.pdf" class="btn btn-secondary">
+                        <i class="fas fa-book"></i> Download Resume
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" id="projectsCount">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="experienceYears">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="certificationsCount">0</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="clientsCount">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="trust-text">Verified Security Expert</div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="trust-text">Available for Projects</div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="trust-text">Certified Professional</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links-section">
+        <div class="container">
+            <div class="quick-links">
+                <a href="#services" class="quick-link">
+                    <i class="fas fa-cogs"></i>
+                    <span>My Services</span>
+                </a>
+                <a href="#research" class="quick-link">
+                    <i class="fas fa-book"></i>
+                    <span>Research Publications</span>
+                </a>
+                <a href="#experience" class="quick-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Work Experience</span>
+                </a>
+                <a href="#projects" class="quick-link">
+                    <i class="fas fa-code"></i>
+                    <span>Latest Projects</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Cybersecurity Professional & Educator</h3>
+                        <p style="text-align: justify;">I am a dedicated cybersecurity professional and educator, currently contributing as a Lecturer. My core drive is to tackle complex security challenges head-on, from securing IoT devices with machine learning to training the next generation of security experts.</p>
+                        <p>My expertise lies in both offensive and defensive security strategies, with hands-on experience in penetration testing, vulnerability assessment, and security tool implementation.</p>
+                        
+                        <h4>Key Skills</h4>
+                        <div class="skills">
+                            <span class="skill-tag">Penetration Testing</span>
+                            <span class="skill-tag">Vulnerability Assessment</span>
+                            <span class="skill-tag">Incident Response</span>
+                            <span class="skill-tag">Python Automation</span>
+                            <span class="skill-tag">IoT Security</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Security Tools</span>
+                            <span class="skill-tag">Network Security</span>
+                        </div>
+                    </div>
+                    <div class="profile-img-container">
+                        <img src="asserts/siddique.jpg" alt="Muhammad Siddique" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="services">
+                <h2>My Services</h2>
+                <p style="text-align: center; margin-bottom: 50px; font-size: 1.2rem; color: var(--gray);">
+                    I offer a comprehensive range of cybersecurity, technology, and educational services to meet your diverse needs.
+                </p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="service-title">Cybersecurity Services</h3>
+                        <p class="service-description">
+                            Comprehensive security solutions including penetration testing, vulnerability assessment, 
+                            network security, and incident response to protect your digital assets.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="service-title">Machine Learning</h3>
+                        <p class="service-description">
+                            Custom ML solutions for security applications, data analysis, and automation. 
+                            Specializing in IoT security profiling and threat detection systems.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Technology</h3>
+                        <p class="service-description">
+                            Full-stack web development with Django, modern frontend technologies, 
+                            and secure web application development following best practices.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3 class="service-title">Linux Training</h3>
+                        <p class="service-description">
+                            Comprehensive Linux administration and security training. Learn system administration, 
+                            shell scripting, and security hardening techniques.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3 class="service-title">Python Programming</h3>
+                        <p class="service-description">
+                            Python development for automation, security tools, web applications, 
+                            and data science projects. From basics to advanced concepts.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="service-title">Django Development</h3>
+                        <p class="service-description">
+                            Professional Django web application development with focus on security, 
+                            scalability, and maintainability. REST APIs and full-stack solutions.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 class="service-title">C/C++ Programming</h3>
+                        <p class="service-description">
+                            System programming, embedded systems development, and performance-critical 
+                            applications using C and C++ programming languages.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Freelancing Projects</h3>
+                        <p class="service-description">
+                            End-to-end project development including requirements analysis, design, 
+                            implementation, testing, and deployment for various domains.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="service-title">O/A Level Tuition</h3>
+                        <p class="service-description">
+                            Comprehensive tutoring for O/A Level Computer Science, Mathematics, 
+                            and related subjects with focus on exam preparation and concept clarity.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="service-title">Home Tuition</h3>
+                        <p class="service-description">
+                            Personalized home tutoring for computer science, programming, and 
+                            mathematics subjects at all academic levels with flexible scheduling.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Publications Section -->
+    <section id="research">
+        <div class="container">
+            <div class="research">
+                <h2>Research Publications</h2>
+                <p style="text-align: center; margin-bottom: 50px; font-size: 1.2rem; color: var(--gray);">
+                    My research contributions in cybersecurity, IoT security, machine learning applications and ACADEMIA.
+                </p>
+                
+                <div class="research-grid">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="research-title">Sec-IoT: Machine Learning Based Lightweight IoT Device Profiling For Security</h3>
+                        <p class="research-authors">Muhammad Siddique, Dr. Faisal Hayat (UET), Dr. Yasir Saleem (UET)</p>
+                        <p class="research-venue">University of Engineer and Technology Journal, 2025</p>
+                        <p class="research-abstract">
+                            This research proposes a novel machine learning-based approach for lightweight IoT device profiling 
+                            to enhance security in connected environments. The framework effectively identifies anomalous behavior 
+                            and potential security threats in IoT ecosystems.
+                        </p>
+                        <div class="research-links">
+                            <a href="asserts/MyResearchThesis.pdf" class="research-link">
+                                <i class="fas fa-external-link-alt"></i> View Research
+                            </a>
+                            <a href="asserts/MyResearchThesis.pdf" class="research-link">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3 class="research-title">Role of Experiential Learning in Bridging the Academia-Industry Gap</h3>
+                        <p class="research-authors">Muhammad Siddique, et. al.</p>
+                        <p class="research-venue">ACADEMIA International Journal for Social Sciences (AIJSS), 2025</p>
+                        <p class="research-abstract">
+                            In order to bridge the gap between academics and industry, 
+                            this study paper delves into the crucial function of experiential learning. 
+                            It gives some background and then dives into how experiential learning helps 
+                            students build skills and critical thinking in preparation for the job by focusing on practical 
+                            applications and hands-on experiences.
+                        </p>
+                        <div class="research-links">
+                            <a href="asserts/paper.pdf" class="research-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                            <a href="asserts/paper.pdf" class="research-link">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="research-title">AI-Powered Threat Intelligence for Network Security</h3>
+                        <p class="research-authors">Muhammad Siddique, Dr. Faisal Hayat (UET), Dr. Yasir Saleem (UET)</p>
+                        <p class="research-venue">In Process, 2025</p>
+                        <p class="research-abstract">
+                            This paper presents an AI-driven threat intelligence system that leverages machine learning 
+                            algorithms to predict and prevent network security breaches. The system demonstrates 
+                            superior performance in early threat detection compared to traditional methods.
+                        </p>
+                        <div class="research-links">
+                            <a href="#" class="research-link">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                            <a href="#" class="research-link">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <img src="asserts/umt.jpeg" alt="Lab Engineer" class="section-img">
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-role">Lecturer | UMT</div>
+                        <p>Providing hands-on training for students in subjects "Introduction to Cyber Security", "Vulnerability Assessment and Reverse Engineering", "Operating Systems", "Computer Networks", "Web Technologies".</p>
+                        <p>Implemented and maintaining security tools and technologies in an academic environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cyber Security Analyst" class="section-img">
+                        <div class="timeline-date">Jan 2023 - Aug 2023</div>
+                        <div class="timeline-role">Cyber Security Analyst | cyberwing.pk</div>
+                        <p>Assisted senior analysts in conducting penetration testing on the company's internal network using tools like Metasploit, Wireshark, Nmap.</p>
+                        <p>Participated in incident response activities, analyzing and mitigating security breaches and vulnerabilities using SIEM tools and Suricata.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+            <div class="project-card">
+                    <img src="asserts/malware.jpg" alt="Python Malware" class="section-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Malware Development</h3>
+                        <p>Designed malware in python programing language to hack the windows 10/11 over the internet. This is our research to check the windows security and how it can be bypass</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Malware</span>
+                            <span class="tool-tag">Security bypass</span>
+                            <span class="tool-tag">Windows</span>
+                        </div>
+                        <p><strong>Outcome:</strong> Demonstrated understanding of Windows 10/11 security and threat of continuous security training.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Phishing Simulation" class="section-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Phishing Simulation</h3>
+                        <p>Designed and executed phishing simulation campaign to assess and improve organizational awareness of social engineering threats.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">PhishMe</span>
+                            <span class="tool-tag">Social Engineering</span>
+                            <span class="tool-tag">Security Awareness</span>
+                        </div>
+                        <p><strong>Outcome:</strong> Demonstrated understanding of social engineering risks and the importance of continuous security training.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Network Vulnerability Assessment" class="section-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Network Vulnerability Assessment</h3>
+                        <p>Conducted thorough scans on a small internal network to identify open ports, potential vulnerabilities, and system misconfigurations.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Nmap</span>
+                            <span class="tool-tag">Nessus</span>
+                            <span class="tool-tag">OpenVAS</span>
+                            <span class="tool-tag">Vulnerability Scanning</span>
+                        </div>
+                        <p><strong>Outcome:</strong> Produced detailed documentation with actionable recommendations for remediation.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="IoT Security" class="section-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Sec-IoT: ML-Based IoT Device Profiling</h3>
+                        <p>Research project focused on developing machine learning-based lightweight IoT device profiling for enhanced security.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Machine Learning</span>
+                            <span class="tool-tag">IoT Security</span>
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Device Profiling</span>
+                        </div>
+                        <p><strong>Outcome:</strong> M.Phil research thesis contributing to IoT security advancements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <img src="asserts/uet.jpeg" alt="University of Engineering and Technology" class="section-img">
+                    <h3 class="education-degree">Master of Philosophy (M.Phil) in Computer Engineering</h3>
+                    <p>University of Engineering and Technology, Lahore, Pakistan</p>
+                    <p class="education-date">Expected May 2025</p>
+                    <div class="education-thesis">
+                        <strong>Research Thesis:</strong> "Sec-IoT: Machine Learning Based Lightweight IoT Device Profiling For Security"
+                    </div>
+                </div>
+                <div class="education-card">
+                    <img src="asserts/pu.jpg" alt="University of the Punjab" class="section-img">
+                    <h3 class="education-degree">Bachelor of Science in Information Technology (BS HONS)</h3>
+                    <p>University of the Punjab, Lahore, Pakistan</p>
+                    <p class="education-date">Graduated 2021</p>
+                    <div class="education-thesis">
+                        <strong>Final Year Project:</strong> Web-based application for online shopping
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Palo Alto Networks" class="section-img">
+                    <h3 class="cert-name">Palo Alto Networks Cybersecurity</h3>
+                    <p class="cert-org">Palo Alto Network | 2025</p>
+                </div>
+                <div class="cert-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CISSP" class="section-img">
+                    <h3 class="cert-name">Certified Information Systems Security Professional (CISSP)</h3>
+                    <p class="cert-org">Packt | 2025</p>
+                </div>
+                <div class="cert-card">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cisco" class="section-img">
+                    <h3 class="cert-name">Cisco Certified Support Technician - Cyber Security</h3>
+                    <p class="cert-org">CISCO | 2024</p>
+                </div>
+                <div class="cert-card">
+                    <img src="asserts/automation.jpg" alt="Python" class="section-img">
+                    <h3 class="cert-name">Python Programming Language</h3>
+                    <p class="cert-org">UET, Lahore | 2023</p>
+                </div>
+                <div class="cert-card">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cybersecurity" class="section-img">
+                    <h3 class="cert-name">Cybersecurity and Digital Forensic</h3>
+                    <p class="cert-org">UET, Lahore | 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>I am always open to discussing new opportunities, collaborative projects, or the latest trends in cybersecurity.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lahore, Punjab, Pakistan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>siddiqueitexpert@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+92 301 336 9414</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- WhatsApp Contact Section -->
+                <div class="whatsapp-contact">
+                    <div class="whatsapp-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="whatsapp-text">Contact me directly on WhatsApp</div>
+                    <a href="https://wa.me/923013369414" class="whatsapp-number" target="_blank">+92 301 336 9414</a>
+                    <a href="https://wa.me/923013369414" class="whatsapp-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <div class="footer-logo-img"><img src="favicon/favicon-32x32.png" alt=""></div>
+                <div class="footer-logo-text">Muhammad <span>Siddique</span></div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/siddique24" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-medium-m"></i></a>
+            </div>
+            <p class="copyright">© 2023 Muhammad Siddique. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
