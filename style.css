@@ -291,7 +291,7 @@ nav ul li a:hover::after {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -1329,4 +1329,5 @@ footer {
         right: 0;
         margin: bottom 12px;
     }
+
 }
